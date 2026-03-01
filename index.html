@@ -1004,12 +1004,12 @@
     }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
-    // ფოტოების სია — ახალი ფოტოს დამატებისას მხოლოდ აქ ჩაამატე სახელი
+   // ფოტოების სია — სქრინშოტის მიხედვით (სულ 15 ფოტო)
     const photos = [
-    '1.jpeg','2.jpeg','3.jpeg','4.jpeg','5.jpeg',
-    '6.jpeg','7.jpeg','8.jpeg','9.jpeg','10.jpeg',
-    '11.jpeg','12.jpeg','13.jpeg','14.jpg'
-];
+        '1.jpeg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg',
+        '6.jpeg', '7.jpeg', '8.jpeg', '9.jpeg', '10.jpeg',
+        '11.jpeg', '12.jpeg', '13.jpeg', '14.jpg', '15.jpeg'
+    ];
 
     // Grid ავტომატურად გენერირდება photos სიიდან
     const grid = document.getElementById('portfolioGrid');
